@@ -38,7 +38,8 @@ this (again in a valid GETM cast with an existing topo.nc and
 bdyinfo.dat):
 
 .. code:: bash
-	  pymkbdypts.py --output bdypts.txt
+	  
+pymkbdypts.py --output bdypts.txt
 	  
 
 If you want to specify different bdyfiles and topo files use the
