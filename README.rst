@@ -22,7 +22,7 @@ Uninstall as a user
    
 .. code:: bash
 	  
-pip3 uninstall pycnv
+   pip3 uninstall pycnv
 
 
 
@@ -39,7 +39,7 @@ bdyinfo.dat):
 
 .. code:: bash
 	  
-pymkbdypts.py --output bdypts.txt
+   pymkbdypts.py --output bdypts.txt
 	  
 
 If you want to specify different bdyfiles and topo files use the
