@@ -294,8 +294,11 @@ if(plot_map):
     pl.figure(1)
     pl.clf()
 
-    pl.pcolor(X_pl,Y_pl,b_pl)
+    pl.pcolor(X_pl,Y_pl,b_pl,cmap=pl.cm.viridis_r)
+    col = pl.colorbar()
+    col.set_label(b_pl.units)
     pl.plot(x_bdy_pl,y_bdy_pl,'or')
+    pl.savefig('./pymkbdypts.png')
 
     pl.draw()
     pl.show()
