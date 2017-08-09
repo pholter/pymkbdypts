@@ -9,6 +9,21 @@ setup
 Install
 -------
 
+User
+____
+
+Install as a user
+
+.. code:: bash
+	  
+   python3 setup.py install --user
+
+Uninstall as a user
+   
+.. code:: bash
+	  
+   pip3 uninstall pycnv
+
 Developer
 _________
 
