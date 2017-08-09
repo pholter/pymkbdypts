@@ -48,6 +48,10 @@ If you call pymkbdypts in a valid GETM case without further arguments,
 pymkbdypts will look for a bdyinfo.dat and a topo.nc and create a
 figure showing the bdypoints on that map.
 
+.. code:: bash
+	  
+   pymkbdypts.py --figure bdymap.png
+
 If you want to save the bdypoints in a text file call mkbdypts like
 this (again in a valid GETM cast with an existing topo.nc and
 bdyinfo.dat):
