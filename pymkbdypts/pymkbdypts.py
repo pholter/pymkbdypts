@@ -139,8 +139,18 @@ if(grid_type == 4):
     Y_pl = LAT    
 elif(grid_type == 3):
     logger.info('Curvilinear grid type')
-    LAT  = topo_nc.variables['latx']
-    LON  = topo_nc.variables['lonx']
+    try:
+        LAT  = topo_nc.variables['latx']
+    except:
+        logger.debug('no lat defined, using yx')
+        LAT  = topo_nc.variables['yx']
+
+    try:
+        LON  = topo_nc.variables['lonx']
+    except:
+        logger.debug('no lon defined, using xx')        
+        LON  = topo_nc.variables['xx']
+        
     conv = topo_nc.variables['convx']
     b_pl = topo_nc.variables['bathymetry']    
     X_pl = topo_nc.variables['xx']
