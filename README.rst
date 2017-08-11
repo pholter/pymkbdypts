@@ -50,7 +50,7 @@ figure showing the bdypoints on that map.
 
 .. code:: bash
 	  
-   pymkbdypts.py --figure bdymap.png
+   pymkbdypts --figure bdymap.png
 
 If you want to save the bdypoints in a text file call mkbdypts like
 this (again in a valid GETM cast with an existing topo.nc and
@@ -58,7 +58,7 @@ bdyinfo.dat):
 
 .. code:: bash
 	  
-   pymkbdypts.py --output bdypts.txt
+   pymkbdypts --output bdypts.txt
 	  
 
 If you want to specify different bdyfiles and topo files use the
