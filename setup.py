@@ -14,6 +14,6 @@ setup(name='pymkbdypts',
       license='GPLv03',
       packages=['pymkbdypts'],
       scripts = [],
-      entry_points={'console_scripts': ['pymkbdypts=pymkbdypts.pymkbdypts:__main__'], },      
+      entry_points={'console_scripts': ['pymkbdypts=pymkbdypts.pymkbdypts:main'], },
       package_data = {'':['VERSION']},
       zip_safe=False)
